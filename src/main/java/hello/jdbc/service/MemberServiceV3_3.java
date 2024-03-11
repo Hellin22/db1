@@ -30,7 +30,6 @@ public class MemberServiceV3_3 {
     public void accountTransfer(String fromId, String toId, int money) throws SQLException {
 
         bizLogic(fromId, toId, money);
-        bizLogic(fromId, toId, money);
         /*
         txTemplate.executeWithoutResult((status) -> {
             try {
